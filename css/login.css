@@ -1,0 +1,26 @@
+#login {display: none}
+#sso_login {
+    width: 350px;
+    padding: 4% 0 0;
+    margin: auto;
+}
+#sso_login div{
+    text-align: center;
+}
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: radial-gradient(#99CCCC, #7171B7);
+    /* background: url(/vendor/laravel-admin-oauth/img/background.jpg) no-repeat; */
+    background-size: cover;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+}
